@@ -1,17 +1,16 @@
 package Basics;
 
-public class updatingVariables {
+public class updatingShortcut {
     public static void main(String[] args) {
-        int x;
-        x = 8;
+        int x = 5;
         System.out.println(x);
-        x = x + 10; // Upadation
+        x += 7;
         System.out.println(x);
-        x = x - 20;
+        x -= 2;
         System.out.println(x);
-        x = x * -5;
+        x *= 6;
         System.out.println(x);
-        x = x / 2;
+        x /= 12;
         System.out.println(x);
     }
 }
