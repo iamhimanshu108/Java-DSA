@@ -1,4 +1,4 @@
-package Conditionals.Even_Odd;
+package Conditionals;
 
 import java.util.Scanner;
 

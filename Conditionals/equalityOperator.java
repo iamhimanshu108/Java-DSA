@@ -1,4 +1,4 @@
-package Conditionals.Even_Odd;
+package Conditionals;
 
 public class equalityOperator {
     public static void main(String[] args) {
