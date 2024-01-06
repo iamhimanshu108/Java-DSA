@@ -17,13 +17,17 @@ public class calculatorSwith {
 
         switch (op){
             case '+':
-            System.out.println(a+b);
+                System.out.println(a+b);
+                break;
             case '-':
-            System.out.println(a-b);
+                System.out.println(a-b);
+                break;
             case '*':
-            System.out.println(a*b);
+                System.out.println(a*b);
+                break;
             case '/':
-            System.out.println(a/b);
+                System.out.println(a/b);
+                break;
         }
     }
 }
