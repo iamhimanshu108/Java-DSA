@@ -24,5 +24,20 @@ public class trasnformIntoTranspose {
             }
         }
         print(arr);
+
+        // Rotate -> Reverse each Row
+        for (int i = 0; i < m; i++) {
+            int a = 0,  b = m-1;
+            // swap arr[i][j] and arr[i][b]
+            while (a<b) {
+               int temp = arr[i][a];
+               arr[i][a] = arr[i][b];
+               arr[i][b] = temp;
+               a++;
+               b--;
+
+            }
+        }
+        print(arr);
     }
 }
