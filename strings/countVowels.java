@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class countVowels {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter Your String");
+        System.out.print("Enter Your String : ");
         String s = sc.nextLine();
         int n = s.length();
         int count = 0;
@@ -15,7 +15,7 @@ public class countVowels {
         }
         System.out.println(count);
     }
-    public static void isVowel(char ch) {
+    public static boolean isVowel(char ch) {
         if(ch=='a'  || ch=='A') return true;
         if(ch=='e'  || ch=='E') return true;
         if(ch=='i'  || ch=='I') return true;
