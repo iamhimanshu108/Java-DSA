@@ -12,6 +12,8 @@ public class deleteAndInsert {
         System.out.println(sb);
         sb.insert(2,  true);
         System.out.println(sb);
+        sb.reverse();
+        System.out.println(sb);
 
     }
 }
