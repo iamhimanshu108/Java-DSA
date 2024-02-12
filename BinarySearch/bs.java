@@ -2,7 +2,7 @@ package BinarySearch;
 
 public class bs {
     public static void main(String[] args) {
-        int [] arr = {10,23,46,31,91,101,140,264,115};
+        int [] arr = {10,23,46,89,91,101,140,264,115};
         int n = arr.length;
         int target = 689;
         int lo = 0, hi = n-1;
